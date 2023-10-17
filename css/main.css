@@ -1,0 +1,67 @@
+/* Resetowanie stylów i ogólna stylizacja */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #E83151;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 30px;
+}
+
+.item {
+    position: relative;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-image: url('../img/heart.png'); /* Dodaj ścieżkę do swojego obrazka serca */
+    background-size: cover;
+    bottom: -30px;
+    transition: transform 0.2s;
+}
+
+.item:hover .heart {
+    transform: translateY(-20px);
+}
