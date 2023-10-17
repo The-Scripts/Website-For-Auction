@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnAll = document.getElementById("btnAll");
     const btnBooks = document.getElementById("btnBooks");
     const btnDecorations = document.getElementById("btnDecorations");
+    const btnOther = document.getElementById("btnOther");
     const items = document.querySelectorAll(".item");
 
     // Dodaj obsługę kliknięcia przycisków
@@ -16,6 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     btnDecorations.addEventListener("click", function () {
         filterItems("dekoracja");
+    });
+
+    btnOther.addEventListener("click", function () {
+        filterItems("inne");
     });
 
     // Funkcja pokazująca wszystkie przedmioty

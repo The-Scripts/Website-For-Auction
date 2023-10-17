@@ -54,7 +54,7 @@ header div button:active {
     opacity: 70%;
 }
 
-.grid {
+main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,8 +79,8 @@ header div button:active {
 }
 
 .item .tag{
-    width: auto;
-    padding: 3px 10px 3px;
+    padding: 3px 8px 3px;
+    margin: 0 2px;
     color: var(--white);
     font-size: 16px;
     font-weight: 600;
@@ -112,6 +112,13 @@ header div button:active {
 
 .item .desc p{
     margin-bottom: 18px;
+}
+
+.item .desc code{
+    background-color: var(--bgc);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .item .desc::-webkit-scrollbar{
