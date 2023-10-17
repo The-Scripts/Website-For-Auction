@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     btnBooks.addEventListener("click", function () {
-        filterItems("ksiazka");
+        filterItems("książka");
     });
 
     btnDecorations.addEventListener("click", function () {
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Funkcja filtrowania przedmiotów na podstawie kategorii
     function filterItems(category) {
         items.forEach((item) => {
-            const itemType = item.querySelector("img").alt.toLowerCase();
+            const itemType = item.querySelector(".tag").textContent.toLowerCase();
             if (itemType.includes(category)) {
                 item.style.display = "block";
             } else {
