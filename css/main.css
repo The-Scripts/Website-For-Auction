@@ -21,6 +21,16 @@ body {
     overflow: none;
 }
 
+a {
+    color: var(--header);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     background-color: var(--header);
     color: var(--white);
