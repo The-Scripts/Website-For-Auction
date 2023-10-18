@@ -75,6 +75,11 @@ main {
 
 footer a {
     color: white;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    text-decoration: none;
 }
 
 .item {
