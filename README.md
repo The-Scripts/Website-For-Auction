@@ -6,6 +6,6 @@
     
 # 💻 • Demo site
 
-<a href="http://www.calymsercem.zsp9.pl/" target="_blank"><img src="https://img.shields.io/badge/-Show Demo Site-%230077B5?style=for-the-badge&logo=html5&logoColor=white"></a> 
+<a href="http://www.calymsercem.zsp9.pl/" target="_blank"><img src="https://img.shields.io/badge/-To WebSite-%230077B5?style=for-the-badge&logo=html5&logoColor=white"></a> 
 
 #
