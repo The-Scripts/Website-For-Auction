@@ -31,7 +31,7 @@ a:hover {
     text-decoration: underline;
 }
 
-header {
+header, footer{
     background-color: var(--header);
     color: var(--white);
     text-align: center;
@@ -71,6 +71,10 @@ main {
     gap: 20px;
     padding: 50px;
     overflow-y: auto;
+}
+
+footer a {
+    color: white;
 }
 
 .item {
