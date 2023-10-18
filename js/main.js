@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", function () {
         items.forEach((item) => {
             const itemType = item.querySelector(".tag").textContent.toLowerCase();
             if (itemType.includes(category)) {
-                item.style.display = "block";
+                item.parentElement.style.display = "block";
             } else {
-                item.style.display = "none";
+                item.parentElement.style.display = "none";
             }
         });
     }
