@@ -43,7 +43,7 @@ header h1 {
 }
 
 header div button {
-    width: 200px;
+    width: 100px;
     height: 25px;
     font-size: 14px;
     font-weight: 600;
@@ -88,6 +88,13 @@ main {
     margin: 0 0 10px 0;
 }
 
+.item h3 span {
+    border: var(--font) 3px solid;
+    border-radius: 5px;
+    padding: 0px 1px;
+    margin: 0 5px 0 0;
+}
+
 .item .tag{
     padding: 3px 8px 3px;
     margin: 0 2px;
@@ -126,6 +133,7 @@ main {
 
 .item .desc code{
     background-color: var(--bgc);
+    color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
     font-size: 16px;
