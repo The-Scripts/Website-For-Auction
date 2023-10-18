@@ -98,9 +98,11 @@ footer a:hover {
 }
 
 .item h3 span {
+    color: white;
+    background-color: var(--font);
     border: var(--font) 3px solid;
     border-radius: 5px;
-    padding: 0px 1px;
+    padding: 0 1px;
     margin: 0 5px 0 0;
 }
 
