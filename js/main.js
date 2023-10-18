@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnBooks = document.getElementById("btnBooks");
     const btnDecorations = document.getElementById("btnDecorations");
     const btnOther = document.getElementById("btnOther");
+    const btnClothes = document.getElementById("btnClothes");
+    const btnVouchers = document.getElementById("btnVouchers");
+    const btnJewelry = document.getElementById("btnJewelry");
     const items = document.querySelectorAll(".item");
 
     // Dodaj obsługę kliknięcia przycisków
@@ -21,6 +24,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     btnOther.addEventListener("click", function () {
         filterItems("inne");
+    });
+
+    btnVouchers.addEventListener("click", function () {
+        filterItems("voucher");
+    });
+
+    btnClothes.addEventListener("click", function () {
+        filterItems("ubranie");
     });
 
     // Funkcja pokazująca wszystkie przedmioty
