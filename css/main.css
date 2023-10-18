@@ -99,6 +99,8 @@ footer a:hover {
 
 .item h3 span {
     color: white;
+    font-size: 19px;
+    font-weight: 500;
     background-color: var(--font);
     border: var(--font) 3px solid;
     border-radius: 5px;
@@ -147,7 +149,13 @@ footer a:hover {
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 17px;
+}
+
+footer p span{
+    background-color: whitesmoke; 
+    border-radius: 5px; 
+    padding: 1.5px 0.5px 2px 0.5px;
 }
 
 .item .desc::-webkit-scrollbar{
