@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Funkcja pokazująca wszystkie przedmioty
     function showAllItems() {
         items.forEach((item) => {
-            item.style.display = "block";
+            item.parentElement.style.display = "block";
         });
     }
 
