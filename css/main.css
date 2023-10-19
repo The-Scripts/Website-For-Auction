@@ -123,7 +123,8 @@ footer a:hover {
 
 .item img {
     max-width: 100%;
-    height: auto;
+    object-fit: contain;
+    height: 400px;
     border: 1px solid var(--border);
     border-radius: 5px;
     margin: 10px 0;
@@ -133,7 +134,7 @@ footer a:hover {
     font-size: 18px;
     color: var(--border);
     width: 300px;
-    max-height: 280px;
+    height: 200px;
     opacity: 90%;
     padding: 15px;
     margin: 0 auto;
