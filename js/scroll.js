@@ -10,7 +10,7 @@ function checkScroll() {
     if(window.scrollY >= 1200) {
         shown = true;
         arrow.style.opacity = 1;
-        arrow.style.height = "50px";
+        arrow.style.height = "70px";
         arrow.style.transform = 'translateY(0%)';
         console.log('shown');
     } else {
