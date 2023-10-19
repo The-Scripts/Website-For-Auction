@@ -12,13 +12,11 @@ function checkScroll() {
         arrow.style.opacity = "1";
         arrow.style.height = "50px";
         arrow.style.transform = 'translateY(0%)';
-        console.log('shown');
     } else {
         shown = false;
         arrow.style.opacity = "0";
         arrow.style.height = "0";
         arrow.style.transform = 'translateY(1000%)';
-        console.log('not shown');
     }
 }
 window.addEventListener('scroll', checkScroll);
