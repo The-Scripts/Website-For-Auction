@@ -90,6 +90,7 @@ footer a:hover {
     margin-bottom: 20px;
     width: 340px;
     height: auto;
+    z-index: 25;
 }
 
 .item h3 {
@@ -158,6 +159,25 @@ footer p span{
     background-color: whitesmoke; 
     border-radius: 5px; 
     padding: 1.5px 0.5px 2px 0.5px;
+}
+
+#up{
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    opacity: 0;
+    transform: translateY(1000%);
+    z-index: 80;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: var(--cards);
+    top: 88vh;
+    left: 93.5vw;
+    transition: 0.5s ease-in-out;
+}
+
+#up:hover{
+    background-color: var(--alt);
 }
 
 .item .desc::-webkit-scrollbar{
