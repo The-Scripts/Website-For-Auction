@@ -134,7 +134,8 @@ footer a:hover {
     font-size: 18px;
     color: var(--border);
     width: 300px;
-    height: 200px;
+    min-height: 200px;
+    max-height: 250px;
     opacity: 90%;
     padding: 15px;
     margin: 0 auto;
