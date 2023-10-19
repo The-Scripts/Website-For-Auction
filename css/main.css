@@ -69,7 +69,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
-    padding: 50px;
+    padding: 50px 0;
     overflow-y: auto;
 }
 
@@ -131,6 +131,7 @@ footer a:hover {
     max-width: 100%;
     object-fit: contain;
     height: 400px;
+    margin: 0 auto;
     border-radius: 5px;
     margin: 10px 0;
 }
@@ -168,19 +169,24 @@ footer p span{
 }
 
 #up{
+    display: flex;
     position: fixed;
     height: 0px;
     width: 70px;
     opacity: 0;
     transform: translateY(1000%);
     z-index: 80;
-    padding: 3px;
     border-radius: 3px;
     background-color: var(--cards);
     top: 88vh;
     left: 93.5vw;
     transition: 0.5s ease-in-out;
     cursor: pointer;
+}
+
+#up img {
+    margin: 4px;
+    align-items: center;
 }
 
 .item .desc::-webkit-scrollbar{
@@ -196,6 +202,16 @@ footer p span{
 @media (max-width: 480px) {
     .item {
         flex: 0 0 calc(100% - 20px);
+    }
+    
+    #up{
+        position: fixed;
+        top: 90vh;
+        left: 78vw;
+    }
+
+    body{
+        overflow-x: hidden;
     }
 }
 
