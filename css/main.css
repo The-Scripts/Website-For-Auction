@@ -131,7 +131,6 @@ footer a:hover {
     max-width: 100%;
     object-fit: contain;
     height: 400px;
-    border: 1px solid var(--border);
     border-radius: 5px;
     margin: 10px 0;
 }
@@ -170,7 +169,7 @@ footer p span{
 
 #up{
     position: fixed;
-    height: 70px;
+    height: 0px;
     width: 70px;
     opacity: 0;
     transform: translateY(1000%);
