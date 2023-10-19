@@ -18,7 +18,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: var(--bgc);
     color: var(--font);
-    overflow: none;
+    overflow-x: hidden;
 }
 
 a {
@@ -91,6 +91,11 @@ footer a:hover {
     width: 340px;
     height: auto;
     z-index: 25;
+    transition: .5s ease;
+}
+.item:hover {
+    transform: translate(-5px, -5px);
+    box-shadow: 10px 10px 0 var(--alt);
 }
 
 .item h3 {
@@ -176,10 +181,7 @@ footer p span{
     top: 88vh;
     left: 93.5vw;
     transition: 0.5s ease-in-out;
-}
-
-#up:hover{
-    background-color: var(--alt);
+    cursor: pointer;
 }
 
 .item .desc::-webkit-scrollbar{
@@ -203,12 +205,12 @@ footer p span{
 	width: 12px;
 }
 ::-webkit-scrollbar-track{
-    background-color: none;
+    background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
 	background: var(--header);
 	border-radius: 100vw;
-	opacity: 0%;
+	opacity: 0;
 }
 ::-webkit-scrollbar-thumb:hover{
 	background: var(--alt);
@@ -216,7 +218,7 @@ footer p span{
 @supports (scrollbar-color: red blue){
 	*{
 		scrollbar-color: var(--header);
-		scrollbar-width: 12px;
+		scrollbar-width: auto;
 	}
 }
 
