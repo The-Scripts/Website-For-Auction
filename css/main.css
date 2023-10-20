@@ -189,6 +189,22 @@ footer p span{
     align-items: center;
 }
 
+.done {
+    opacity: 50%;
+}
+
+.done h3 span{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: red;
+    border: red 2px solid;
+    border-radius: 7px;
+    padding: 0 2px 1px 2px;
+    margin: 0 5px 0 0;
+}
+
 .item .desc::-webkit-scrollbar{
 	width: 8px;
 }
