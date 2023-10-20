@@ -189,11 +189,11 @@ footer p span{
     align-items: center;
 }
 
-.done {
+.dnone {
     opacity: 50%;
 }
 
-.done h3 span{
+.dnone h3 span{
     color: white;
     font-size: 19px;
     font-weight: 500;
